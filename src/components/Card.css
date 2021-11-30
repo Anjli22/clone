@@ -34,3 +34,6 @@ h2,h1{
     background: white;
 
 }
+.card-content{
+    max-width: 50%;
+}

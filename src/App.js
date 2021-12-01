@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
 import Advantages from "./components/Advantages.js"
+import Features from './components/Features';
 function App() {
 
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Card/>
       <Advantages/>
+      <Features/>
     </div>
   );
 }

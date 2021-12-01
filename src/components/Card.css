@@ -9,7 +9,7 @@
     text-align: center;
     line-height: 30px;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding:35px;
 }
 h2,h1{
@@ -21,7 +21,7 @@ h2,h1{
 .image{
     height: 300px;
     width: 300px;
-    opacity: 50%;
+    /* opacity: 50%; */
 }
 .btn{
     padding: 12px;
@@ -36,4 +36,59 @@ h2,h1{
 }
 .card-content{
     max-width: 50%;
+}
+.outer{
+    
+    width: 100%;
+    /* height: 500px; */
+    background-color: rgb(231, 225, 225);
+    padding: 20px;
+}
+.feature{
+    
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.feature1,.feature2{
+    /* background-color: aqua; */
+    width:600px;
+    height: 400px;
+    margin:40px;
+}
+.feature1{
+    background-image: url('https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    border-radius: 5px;
+}
+.feature2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+width:500px;
+/* background-color: red; */
+height: 80px;
+margin:10px;
+display:flex;
+
+}
+.feature2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.image1{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    margin-right: 9px;
+    background-image:url('https://image.shutterstock.com/image-vector/vector-realistic-transparent-silver-christmas-600w-487148854.jpg') ; 
+    background-size: cover;
+}
+.feat{
+    text-align: center;
+    padding-top: 20px ;
 }
